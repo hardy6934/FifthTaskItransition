@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<p style="margin:0px;">ErrorsControll</p>
+<div class="container1" title="ErrorsControll"> 
+    <div class="range" id="el1">
+    <input type="range" class="form-range" value="0" min="0" max="10" step="0.5" id="customRange3" />
+    </div>
+    <div id="el2"> 
+        <input type="number" class="form-control" id="textBox" placeholder="Errors input"  value="0">
+    </div>
+</div> 
+
+<p style="margin:0px;padding-top:20px">SeedControll</p>
+<div class="container1" title="SeedControll" style="margin-bottom:20px;">
+    <div id="el1">
+        <input type="text" class="form-control" id="Seed" value="0">
+    </div>
+    <div id="el2"> 
+        <button type="button" id="Random"  class="btn btn-secondary btn-lg btn-block">RandomSeed</button>
+    </div>
+</div> 
+    
+
+<partial name="GenerationResultParial" />
+                         
+

@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#el1 {
+    width: 60%;
+}
+#el2 {
+    width: 30%;
+}
+
+
+td {
+    border: 1px solid;
+    height: 5vh;
+    position: relative;
+    padding: 5px;
+}
+
+ 
