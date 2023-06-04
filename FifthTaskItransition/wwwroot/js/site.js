@@ -49,7 +49,7 @@ download.onclick = function () {
     for (var i = 0; i < rows.length; i++) {
         var cols = rows[i].querySelectorAll('td');
         for (var j = 0; j < cols.length; j++) {
-            allColumns.push(cols[j].textContent)
+            allColumns.push(cols[j].textContent+';')
         }
     }
 
